@@ -1,456 +1,611 @@
 {
-    "spec_version": "v1.18",
-    "identifier": "installed-Auto-KSP",
-    "name": "installed-Auto KSP",
-    "abstract": "A list of modules installed on the Auto KSP KSP instance",
-    "author": "Myst",
-    "version": "2024.05.15.01.03.25",
-    "ksp_version_min": "1.12.5",
-    "ksp_version_max": "1.12.5",
+    "spec_version": "v1.6",
+    "identifier": "community-lifeboat-project",
+    "name": "community-lifeboat-project",
+    "abstract": "150+ mod modpack for Kerbal Space Program to turn it into \"KSP2",
+    "author": "ccheek",
+    "version": "2025.05.04.08.37.43",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12",
     "license": "unknown",
     "depends": [
         {
-            "name": "Astrogator"
+            "name": "ModuleManager",
+            "version": "4.2.3"
         },
         {
-            "name": "AT-Utils"
+            "name": "Harmony2",
+            "version": "2.2.1.0"
         },
         {
-            "name": "B9PartSwitch"
+            "name": "B9PartSwitch",
+            "version": "v2.20.0"
         },
         {
-            "name": "BackgroundResources"
+            "name": "CommunityResourcePack",
+            "version": "v112.0.1"
         },
         {
-            "name": "BetterBurnTime"
+            "name": "ModularFlightIntegrator",
+            "version": "1.2.10.0"
         },
         {
-            "name": "BetterEarlyTree"
+            "name": "Kopernicus",
+            "version": "2:release-1.12.1-225"
         },
         {
-            "name": "BetterTimeWarpCont"
+            "name": "CommunityTerrainTexturePack",
+            "version": "1:1.0.5"
         },
         {
-            "name": "Chatterer"
+            "name": "ContractConfigurator",
+            "version": "v2.11.2.0"
         },
         {
-            "name": "ChattererExtended"
+            "name": "DynamicBatteryStorage",
+            "version": "2:2.3.6.0"
         },
         {
-            "name": "ClickThroughBlocker"
+            "name": "USITools",
+            "version": "v112.0.1"
         },
         {
-            "name": "CommunityCategoryKit"
+            "name": "DeployableEngines",
+            "version": "1.3.1"
         },
         {
-            "name": "CommunityPartsTitles"
+            "name": "OuterPlanetsMod",
+            "version": "2:2.2.11"
         },
         {
-            "name": "CommunityPartsTitlesExtrasCategory"
+            "name": "SystemHeat",
+            "version": "0.8.1"
         },
         {
-            "name": "CommunityPartsTitlesExtrasNoCCKDup"
+            "name": "ClickThroughBlocker",
+            "version": "1:2.1.10.22"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "CryoTanks",
+            "version": "1.6.6"
         },
         {
-            "name": "CommunityTechTree"
+            "name": "CryoTanks-Core",
+            "version": "1.6.6"
         },
         {
-            "name": "CommunityTerrainTexturePack"
+            "name": "FirespitterCore",
+            "version": "v7.17"
         },
         {
-            "name": "ContractConfigurator"
+            "name": "ToolbarController",
+            "version": "1:0.1.9.13"
         },
         {
-            "name": "ContractConfigurator-AnomalySurveyor"
+            "name": "CommunityCategoryKit",
+            "version": "v112.0.1"
         },
         {
-            "name": "ContractConfigurator-CleverSats"
+            "name": "KSPCommunityFixes",
+            "version": "1.37.3"
         },
         {
-            "name": "ContractConfigurator-ExplorationPlus"
+            "name": "USI-Core",
+            "version": "v112.0.1"
         },
         {
-            "name": "ContractConfigurator-FieldResearch"
+            "name": "CustomAsteroids",
+            "version": "v1.9.0"
         },
         {
-            "name": "ContractConfigurator-KerbalAcademy"
+            "name": "CustomAsteroids-Pops-OPM-Outer",
+            "version": "v1.2.0"
         },
         {
-            "name": "ContractConfigurator-KerbinSpaceStation"
+            "name": "CustomPreLaunchChecks",
+            "version": "1.8.1.1"
         },
         {
-            "name": "ContractConfigurator-Tourism"
+            "name": "KSPBurst",
+            "version": "v1.5.5.2"
         },
         {
-            "name": "CryoEngines"
+            "name": "NearFutureProps",
+            "version": "1:0.7.2"
         },
         {
-            "name": "CryoEngines-NFAero"
+            "name": "VertexMitchellNetravaliHeightMap",
+            "version": "0.3"
         },
         {
-            "name": "CryoTanks"
+            "name": "AT-Utils",
+            "version": "v1.10.1"
         },
         {
-            "name": "CryoTanks-Core"
+            "name": "CommunityTechTree",
+            "version": "1:3.4.5"
         },
         {
-            "name": "CustomAsteroids"
+            "name": "KerbalKonstructs",
+            "version": "v1.9.0.0"
         },
         {
-            "name": "CustomAsteroids-Pops-OPM-Outer"
+            "name": "KopernicusExpansionContinueder",
+            "version": "Beta9.1.1"
         },
         {
-            "name": "CustomAsteroids-Pops-OPM-Reconfig"
+            "name": "NearFutureElectrical-Core",
+            "version": "2.0.1"
         },
         {
-            "name": "CustomAsteroids-Pops-Stock-Inner"
+            "name": "ParallaxContinued",
+            "version": "1.0.0"
         },
         {
-            "name": "CustomBarnKit"
+            "name": "ParallaxContinued-Planet-Textures",
+            "version": "1.0.0"
         },
         {
-            "name": "CustomPreLaunchChecks"
+            "name": "ParallaxContinued-Scatter-Textures",
+            "version": "1.0.1"
         },
         {
-            "name": "DeepFreeze"
+            "name": "Singularity",
+            "version": "0.991"
         },
         {
-            "name": "DeployableEngines"
+            "name": "SpaceDust",
+            "version": "0.5.5"
         },
         {
-            "name": "DistantObject"
+            "name": "BackgroundResources",
+            "version": "1:v0.18.0.0"
         },
         {
-            "name": "DistantObject-default"
+            "name": "Chatterer",
+            "version": "0.9.99"
         },
         {
-            "name": "DMagicOrbitalScience"
+            "name": "CryoEngines",
+            "version": "1:2.0.8"
         },
         {
-            "name": "DMagicScienceAnimate"
+            "name": "DistantObject",
+            "version": "v2.2.0.2"
         },
         {
-            "name": "DockingPortAlignmentIndicator"
+            "name": "DistantObject-default",
+            "version": "v2.2.0.2"
         },
         {
-            "name": "DynamicBatteryStorage"
+            "name": "GroundConstruction-Core",
+            "version": "2.7.1"
         },
         {
-            "name": "EasyVesselSwitch"
+            "name": "KcalbelohSystem",
+            "version": "v1.1.8"
         },
         {
-            "name": "EnvironmentalVisualEnhancements"
+            "name": "KcalbelohSystem-Textures-8k",
+            "version": "v1.1.8"
         },
         {
-            "name": "ExtraPlanetaryLaunchpads"
+            "name": "KerbalActuators",
+            "version": "v1.9.0"
         },
         {
-            "name": "FarFutureTechnologies"
+            "name": "KerbalAtomics",
+            "version": "1:1.3.4"
         },
         {
-            "name": "FirespitterCore"
+            "name": "Konstruction",
+            "version": "v112.0.1"
         },
         {
-            "name": "FreeIva"
+            "name": "MinorPlanetsExpansion",
+            "version": "v1.1.1"
         },
         {
-            "name": "GroundConstruction"
+            "name": "NearFutureElectrical",
+            "version": "2.0.1"
         },
         {
-            "name": "GroundConstruction-Core"
+            "name": "NearFuturePropulsion",
+            "version": "1.3.6"
         },
         {
-            "name": "Harmony2"
+            "name": "NearFutureSolar",
+            "version": "1.3.3"
         },
         {
-            "name": "HeatControl"
+            "name": "NearFutureSolar-Core",
+            "version": "1.3.3"
         },
         {
-            "name": "HideEmptyTechNodes"
+            "name": "NearFutureSpacecraft",
+            "version": "1.4.6"
         },
         {
-            "name": "ImprovedTreeEnginePlacement"
+            "name": "PlanetShine",
+            "version": "0.2.6.6"
         },
         {
-            "name": "JX2Antenna"
+            "name": "PlanetShine-Config-Default",
+            "version": "0.2.6.6"
         },
         {
-            "name": "KAS"
+            "name": "RasterPropMonitor-Core",
+            "version": "1:v1.0.2"
         },
         {
-            "name": "KcalbelohSystem"
+            "name": "RemoteTech",
+            "version": "v1.9.12"
         },
         {
-            "name": "KcalbelohSystem-Textures-8k"
+            "name": "REPOSoftTech-Agencies",
+            "version": "V1.5.9.0"
         },
         {
-            "name": "KerbalActuators"
+            "name": "RocketSoundEnhancement",
+            "version": "0.9.11"
         },
         {
-            "name": "KerbalAtomics"
+            "name": "RocketSoundEnhancement-Config-Default",
+            "version": "1.3.0"
         },
         {
-            "name": "KerbalAtomics-NTRModSupport"
+            "name": "SCANsat",
+            "version": "v20.4"
         },
         {
-            "name": "KerbalInventoryForAll"
+            "name": "StagedAnimation",
+            "version": "v2.0"
         },
         {
-            "name": "KerbalJointReinforcementContinued"
+            "name": "StationPartsExpansionRedux",
+            "version": "2.0.11"
         },
         {
-            "name": "KerbalKonstructs"
+            "name": "Waterfall",
+            "version": "0.10.5"
         },
         {
-            "name": "KerbalPlanetaryBaseSystems"
+            "name": "ModularLaunchPads",
+            "version": "2.8.1"
         },
         {
-            "name": "KIS"
+            "name": "Astrogator",
+            "version": "v1.0.2"
         },
         {
-            "name": "Konstruction"
+            "name": "BetterEarlyTree",
+            "version": "1.0.2"
         },
         {
-            "name": "Kopernicus"
+            "name": "BetterBurnTime",
+            "version": "1.10"
         },
         {
-            "name": "KopernicusExpansionContinueder"
+            "name": "BetterTimeWarpCont",
+            "version": "2.3.13.1"
         },
         {
-            "name": "KSPCommunityFixes"
+            "name": "ChattererExtended",
+            "version": "0.6.2"
         },
         {
-            "name": "MinorPlanetsExpansion"
+            "name": "CommunityPartsTitles",
+            "version": "0.10.3"
         },
         {
-            "name": "ModularFlightIntegrator"
+            "name": "CommunityPartsTitlesExtrasCategory",
+            "version": "0.10.3"
         },
         {
-            "name": "ModularLaunchPads"
+            "name": "CommunityPartsTitlesExtrasNoCCKDup",
+            "version": "0.10.3"
         },
         {
-            "name": "ModuleManager"
+            "name": "ContractConfigurator-AnomalySurveyor",
+            "version": "1.7.1"
         },
         {
-            "name": "NearFutureAeronautics"
+            "name": "ContractConfigurator-KerbinSpaceStation",
+            "version": "2:3.7.3.3"
         },
         {
-            "name": "NearFutureConstruction"
+            "name": "ContractConfigurator-CleverSats",
+            "version": "1.4"
         },
         {
-            "name": "NearFutureElectrical"
+            "name": "ContractConfigurator-ExplorationPlus",
+            "version": "2.0.1"
         },
         {
-            "name": "NearFutureElectrical-Core"
+            "name": "ContractConfigurator-FieldResearch",
+            "version": "1.2.2"
         },
         {
-            "name": "NearFutureElectrical-DecayingRTGs"
+            "name": "ContractConfigurator-KerbalAcademy",
+            "version": "1.1.10"
         },
         {
-            "name": "NearFutureExploration"
+            "name": "ResearchAdvancementDivision",
+            "version": "1.3.0"
         },
         {
-            "name": "NearFutureLaunchVehicles"
+            "name": "TourismExpanded",
+            "version": "1.0.2"
         },
         {
-            "name": "NearFutureProps"
+            "name": "ContractConfigurator-Tourism",
+            "version": "1.5.2"
         },
         {
-            "name": "NearFuturePropulsion"
+            "name": "CryoEngines-NFAero",
+            "version": "2.0.8"
         },
         {
-            "name": "NearFuturePropulsion-XenonHETs"
+            "name": "CustomAsteroids-Pops-OPM-Reconfig",
+            "version": "v1.2.0"
         },
         {
-            "name": "NearFutureSolar"
+            "name": "CustomAsteroids-Pops-Stock-Inner",
+            "version": "v1.9.0"
         },
         {
-            "name": "NearFutureSolar-Core"
+            "name": "CustomBarnKit",
+            "version": "1.1.22.0"
         },
         {
-            "name": "NearFutureSpacecraft"
+            "name": "DeepFreeze",
+            "version": "V0.31.0.0"
         },
         {
-            "name": "NearFutureSpacecraft-OrbitalLFOEngines"
+            "name": "DMagicOrbitalScience",
+            "version": "1.4.3"
         },
         {
-            "name": "OffShoreLaunchPlatform"
+            "name": "DMagicScienceAnimate",
+            "version": "v0.23"
         },
         {
-            "name": "OuterPlanetsMod"
+            "name": "DockingPortAlignmentIndicator",
+            "version": "6.10.0.0"
         },
         {
-            "name": "Parallax"
+            "name": "EasyVesselSwitch",
+            "version": "2.3"
         },
         {
-            "name": "Parallax-OuterPlanetsMod"
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.7.2"
         },
         {
-            "name": "Parallax-StockScatterTextures"
+            "name": "ExtraPlanetaryLaunchpads",
+            "version": "6.99.3.0"
         },
         {
-            "name": "Parallax-StockTextures"
+            "name": "FarFutureTechnologies",
+            "version": "1.4.2"
         },
         {
-            "name": "PlanetShine"
+            "name": "FreeIva",
+            "version": "0.2.20.0"
         },
         {
-            "name": "PlanetShine-Config-Default"
+            "name": "GroundConstruction",
+            "version": "2.7.1"
         },
         {
-            "name": "QuackPack"
+            "name": "HeatControl",
+            "version": "0.6.2"
         },
         {
-            "name": "RasterPropMonitor-Core"
+            "name": "HideEmptyTechNodes",
+            "version": "1.3.2"
         },
         {
-            "name": "RationalResources"
+            "name": "ImprovedTreeEnginePlacement",
+            "version": "v1.4.0"
         },
         {
-            "name": "RemoteTech"
+            "name": "JX2Antenna",
+            "version": "2.0.5"
         },
         {
-            "name": "RemoteTechStockConfigs"
+            "name": "KerbalAtomics-NTRModSupport",
+            "version": "1.3.4"
         },
         {
-            "name": "REPOSoftTech-Agencies"
+            "name": "KAS",
+            "version": "1.12"
         },
         {
-            "name": "ResearchAdvancementDivision"
+            "name": "KerbalInventoryForAll",
+            "version": "1:1.2.2"
         },
         {
-            "name": "ReStockPlus"
+            "name": "KIS",
+            "version": "1.29"
         },
         {
-            "name": "Reviva"
+            "name": "KerbalJointReinforcementContinued",
+            "version": "v3.8.5.0"
         },
         {
-            "name": "RocketSoundEnhancement"
+            "name": "KerbalPlanetaryBaseSystems",
+            "version": "v1.6.16"
         },
         {
-            "name": "RocketSoundEnhancement-Config-Default"
+            "name": "NearFutureAeronautics",
+            "version": "2.1.2"
         },
         {
-            "name": "SCANsat"
+            "name": "NearFutureConstruction",
+            "version": "1.3.3"
         },
         {
-            "name": "ScienceAlert"
+            "name": "NearFutureElectrical-DecayingRTGs",
+            "version": "2.0.1"
         },
         {
-            "name": "Shabby"
+            "name": "NearFutureExploration",
+            "version": "1.1.3"
         },
         {
-            "name": "Shaddy"
+            "name": "NearFutureLaunchVehicles",
+            "version": "2.2.2"
         },
         {
-            "name": "SimpleAdjustableFairings"
+            "name": "NearFuturePropulsion-XenonHETs",
+            "version": "1.3.6"
         },
         {
-            "name": "SimpleRepaint"
+            "name": "NearFutureSpacecraft-OrbitalLFOEngines",
+            "version": "1.4.6"
         },
         {
-            "name": "Singularity"
+            "name": "OffShoreLaunchPlatform",
+            "version": "1.0"
         },
         {
-            "name": "SpaceDust"
+            "name": "StockalikeStructures",
+            "version": "0.0.12"
         },
         {
-            "name": "SpaceDustUnbound"
+            "name": "OuterParallax-MPE",
+            "version": "0.5.5"
         },
         {
-            "name": "SpeedUnitAnnex"
+            "name": "OuterParallax-OPM",
+            "version": "0.5.5"
         },
         {
-            "name": "StagedAnimation"
+            "name": "USI-NuclearRockets",
+            "version": "v112.0.1"
         },
         {
-            "name": "StageRecovery"
+            "name": "QuackPack",
+            "version": "1.3.0"
         },
         {
-            "name": "StarshipLaunchExpansion"
+            "name": "RationalResources",
+            "version": "3.2.1"
         },
         {
-            "name": "StationPartsExpansionRedux"
+            "name": "RemoteTechStockConfigs",
+            "version": "1:1.0.2"
         },
         {
-            "name": "StationPartsExpansionRedux-IVAs"
+            "name": "ReStockPlus",
+            "version": "1.5.1"
         },
         {
-            "name": "StockalikeStructures"
+            "name": "Reviva",
+            "version": "1.0.0"
         },
         {
-            "name": "StockSCANsat"
+            "name": "ScienceAlert",
+            "version": "1.9.20.4"
         },
         {
-            "name": "SystemHeat"
+            "name": "Shabby",
+            "version": "0.4.1"
         },
         {
-            "name": "SystemHeat-Converters"
+            "name": "Shaddy",
+            "version": "v2.5"
         },
         {
-            "name": "SystemHeat-FissionEngines"
+            "name": "SimpleAdjustableFairings",
+            "version": "v1.12.0"
         },
         {
-            "name": "SystemHeat-FissionReactors"
+            "name": "SimpleRepaint",
+            "version": "0.4.2"
         },
         {
-            "name": "SystemHeat-Harvesters"
+            "name": "SpaceDustUnbound",
+            "version": "1.0.2"
         },
         {
-            "name": "TexturesUnlimited"
+            "name": "SpeedUnitAnnex",
+            "version": "1.6.1"
         },
         {
-            "name": "ThroughTheEyesOfaKerbal"
+            "name": "StageRecovery",
+            "version": "1.9.7"
         },
         {
-            "name": "Toolbar"
+            "name": "StarshipLaunchExpansion",
+            "version": "1:Beta_v0.5"
         },
         {
-            "name": "ToolbarController"
+            "name": "StationPartsExpansionRedux-IVAs",
+            "version": "2.0.11"
         },
         {
-            "name": "TourismExpanded"
+            "name": "StockSCANsat",
+            "version": "v1.02"
         },
         {
-            "name": "Trajectories"
+            "name": "SystemHeat-FissionEngines",
+            "version": "0.8.1"
         },
         {
-            "name": "UKS"
+            "name": "SystemHeat-FissionReactors",
+            "version": "0.8.1"
         },
         {
-            "name": "UniversalStorage2"
+            "name": "SystemHeat-Converters",
+            "version": "0.8.1"
         },
         {
-            "name": "USI-ART"
+            "name": "SystemHeat-Harvesters",
+            "version": "0.8.1"
         },
         {
-            "name": "USI-Core"
+            "name": "TexturesUnlimited",
+            "version": "1.6.3.29"
         },
         {
-            "name": "USI-EXP"
+            "name": "ThroughTheEyesOfaKerbal",
+            "version": "2.0.4.4"
         },
         {
-            "name": "USI-FTT"
+            "name": "Toolbar",
+            "version": "1:1.8.1.2"
         },
         {
-            "name": "USI-LS"
+            "name": "Trajectories",
+            "version": "v2.4.5.3"
         },
         {
-            "name": "USI-NuclearRockets"
+            "name": "UniversalStorage2",
+            "version": "4.0.2.1"
         },
         {
-            "name": "USITools"
+            "name": "USI-ART",
+            "version": "1:v112.0.1"
         },
         {
-            "name": "VertexMitchellNetravaliHeightMap"
+            "name": "USI-EXP",
+            "version": "v112.0.1"
         },
         {
-            "name": "Waterfall"
+            "name": "USI-FTT",
+            "version": "v112.0.1"
+        },
+        {
+            "name": "UKS",
+            "version": "1:v112.0.1"
+        },
+        {
+            "name": "USI-LS",
+            "version": "v112.0.1"
         }
     ],
-    "release_date": "2024-05-15T01:03:25.4300992Z",
+    "release_date": "2025-05-04T01:37:43.1196312-07:00",
     "kind": "metapackage"
 }
